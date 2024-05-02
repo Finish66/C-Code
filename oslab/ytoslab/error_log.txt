@@ -1,0 +1,1 @@
+-bash: command_not_found: command not found

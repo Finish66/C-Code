@@ -1,0 +1,34 @@
+
+CA- 1
+1) create file.txt and write 30 characters into it. read first 10 characters and last 10 lines from it using lseek option call and sisplay contents on scree using sutiable system call
+
+
+2) Q3 in lab exersise 3 encryption 
+
+3) create dir_personal using sutable system call create any two files into it open and display contents of dirPersonal usind suitable system call
+
+
+Ca-2
+createt a process child relationship between two process such taht the child process creates a file named realation.txt and the prent process wite sime content into it by taking the input from tthe user
+
+write a c program to create a thread t1 the main process -passes two number to t1, t1 calcualtes the sum of these two numbers and returns the sum to parent for printing 
+
+write a program using fork() system call to create two child of same precess ie parent P having child process P1 and P2 . also display the relationship between them
+
+
+
+
+
+
+Ca-4
+
+1.
+consider a sinerio where child precess sets up a pipe (using pipe func) and sends some data to parent process through the writing end of a pipe while pare nt precss use the readin end of the pipe to read same data and print it on th screen implement above senirio using suitable function 
+
+2.
+implement reader write problem  using smeamphore and mutex opetartions to sync and readers active in the readers section at the same time and one writer active at a time
+constaraints
+a. if one writer is writing no other write inshowul bew read or write on the shared variable 
+
+3. 
+create a shared memory degment of size 2MB and write a a sender program and recive program where seder writing a string "hello iam from LPU" by attaching it to shared memory and reciver reciving the  same and displaying it on screen

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Enter value for 'a':"
+read a
+
+echo "Enter value for 'b':"
+read b
+
+sum=$((a + b))
+echo "Sum: $sum"
+
